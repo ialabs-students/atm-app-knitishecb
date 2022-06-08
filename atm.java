@@ -19,7 +19,7 @@ break;
 default:
 System.out.println("please enter correct choice");
 }
-while(choice!=0) {
+
 switch(choice) {
 case 1:deposit(count, sc);
 break;
@@ -29,7 +29,7 @@ default:
 System.out.println("please enter correct choice");
 }
 }
-}
+
 private static void withdraw(ArrayList<Integer> count, Scanner sc) {
 int Total = (count.get(0)*2000) +(count.get(1)*1000)+(count.get(2)*500)+(count.get(3)*200)
 +(count.get(4)*100);
