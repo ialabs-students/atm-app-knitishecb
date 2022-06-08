@@ -20,14 +20,6 @@ default:
 System.out.println("please enter correct choice");
 }
 
-switch(choice) {
-case 1:deposit(count, sc);
-break;
-case 2:withdraw(count, sc);
-break;
-default:
-System.out.println("please enter correct choice");
-}
 }
 
 private static void withdraw(ArrayList<Integer> count, Scanner sc) {
